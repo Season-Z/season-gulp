@@ -14,6 +14,13 @@
     "lib",
     "bin"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Season-Z/season-gulp"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
   "dependencies": {
     "@babel/core": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
@@ -31,6 +38,6 @@
     "gulp-uglify": "^3.0.2",
     "gulp-useref": "^4.0.1"
   },
-  "author": "zouxishun",
+  "author": "Season-Z",
   "license": "ISC"
 }

@@ -1,0 +1,19 @@
+{
+  "name": "zce-gulp-demo",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "clean": "season-gulp clean",
+    "build": "season-gulp build",
+    "dev": "season-gulp develop"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "gulp-cli": "^2.3.0",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0",
+    "season-gulp": "^1.0.0"
+  },
+  "devDependencies": {}
+}
