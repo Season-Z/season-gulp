@@ -12,8 +12,7 @@
     "bootstrap": "^4.3.1",
     "gulp-cli": "^2.3.0",
     "jquery": "^3.4.1",
-    "popper.js": "^1.15.0",
-    "season-gulp": "^1.0.0"
+    "popper.js": "^1.15.0"
   },
   "devDependencies": {}
 }
