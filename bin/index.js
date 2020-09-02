@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-
+// #!/usr/bin/env node设置后，可以让系统动态的去查找node，已解决不同机器不同用户设置不一致问题
 /**
  * Mac 下运行bin目录可能会有读写权限文件
  *
