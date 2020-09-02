@@ -20,19 +20,34 @@
 
 ```json
 {
-  data: {},   // 项目的静态数据，可通过ejs模板来引入到页面
-  dist: 'dist',  // 打包后的文件夹
-  temp: 'temp',   // 开发环境打包的临时文件夹
-  src: 'src',    // 项目的入口
-  public: 'public',  
-  paths: {
-    styles: 'src/assets/styles',
-    script: 'src/assets/scripts',
-    pages: 'src',
-    images: 'src/assets/images',
-    fonts: 'src/assets/fonts',
-    public: 'public'
+  "data": {}, // 项目的静态数据，可通过ejs模板来引入到页面
+  "dist": "dist", // 打包后的文件夹
+  "temp": "temp", // 开发环境打包的临时文件夹
+  "src": "src", // 项目的入口
+  "public": "public",
+  "paths": {
+    "styles": "src/assets/styles",
+    "script": "src/assets/scripts",
+    "pages": "src",
+    "images": "src/assets/images",
+    "fonts": "src/assets/fonts",
+    "public": "public"
   }
 }
 ```
 
+## 查看 demo 示例
+
+因为本地有点问题，无法发布到 npm。使用 yarn link 来查看
+
+```js
+yarn
+
+yarn link
+
+cd demo
+
+yarn link "season-gulp"
+
+....使用命令
+```
