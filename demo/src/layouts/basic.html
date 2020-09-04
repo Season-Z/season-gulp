@@ -1,41 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="author" content="season" />
+    <title>
+      {{ current | title }} · {{ pkg.name | replace('[-_]', ' ', 'g') | title }}
+    </title>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="author" content="zce">
-  <title>{{ current | title }} · {{ pkg.name | replace('[-_]', ' ', 'g') | title }}</title>
+    <!-- build:css assets/styles/vendor.css -->
+    <link
+      rel="stylesheet"
+      href="/node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <!-- endbuild -->
+    <!-- build:css assets/styles/main.css -->
+    <link rel="stylesheet" href="assets/styles/main.css" />
+    <!-- endbuild -->
 
-  <link rel="canonical" href="https://zce.me">
+    {% block styles %}{% endblock %}
+  </head>
 
-  <!-- build:css assets/styles/vendor.css -->
-  <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
-  <!-- endbuild -->
-  <!-- build:css assets/styles/main.css -->
-  <link rel="stylesheet" href="assets/styles/main.css">
-  <!-- endbuild -->
+  <body>
+    {% include '../partials/header.html' %} {% block body %}{% endblock %} {%
+    include '../partials/footer.html' %}
 
-  {% block styles %}{% endblock %}
-</head>
+    <!-- build:js assets/scripts/vendor.js -->
+    <script src="/node_modules/jquery/dist/jquery.js"></script>
+    <script src="/node_modules/popper.js/dist/umd/popper.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <!-- endbuild -->
+    <!-- build:js assets/scripts/main.js -->
+    <script src="assets/scripts/main.js"></script>
+    <!-- endbuild -->
 
-<body>
-  {% include '../partials/header.html' %}
-
-  {% block body %}{% endblock %}
-
-  {% include '../partials/footer.html' %}
-
-  <!-- build:js assets/scripts/vendor.js -->
-  <script src="/node_modules/jquery/dist/jquery.js"></script>
-  <script src="/node_modules/popper.js/dist/umd/popper.js"></script>
-  <script src="/node_modules/bootstrap/dist/js/bootstrap.js"></script>
-  <!-- endbuild -->
-  <!-- build:js assets/scripts/main.js -->
-  <script src="assets/scripts/main.js"></script>
-  <!-- endbuild -->
-
-  {% block scripts %}{% endblock %}
-</body>
-
+    {% block scripts %}{% endblock %}
+  </body>
 </html>

@@ -1,5 +1,3 @@
-// TODO: site logics
-
 $(($) => {
   const $body = $('html, body')
 

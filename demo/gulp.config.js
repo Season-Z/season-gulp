@@ -18,21 +18,7 @@ module.exports = {
         name: 'Contact',
         link: '#',
         children: [
-          {
-            name: 'Twitter',
-            link: 'https://twitter.com/w_zce'
-          },
-          {
-            name: 'About',
-            link: 'https://weibo.com/zceme'
-          },
-          {
-            name: 'divider'
-          },
-          {
-            name: 'About',
-            link: 'https://github.com/zce'
-          }
+
         ]
       }
     ],
