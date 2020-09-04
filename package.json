@@ -2,7 +2,7 @@
   "name": "season-gulp",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/bundle.js",
+  "main": "lib/index.js",
   "bin": {
     "season-gulp": "bin/index.js"
   },
@@ -37,14 +37,12 @@
     "gulp-sass": "^4.0.2",
     "gulp-swig": "^0.9.1",
     "gulp-uglify": "^3.0.2",
-    "gulp-useref": "^4.0.1",
-    "typescript": "^4.0.2"
+    "gulp-useref": "^4.0.1"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^15.0.0",
     "@rollup/plugin-node-resolve": "^9.0.0",
     "rollup-plugin-terser": "^7.0.1",
-    "rollup-plugin-typescript2": "^0.27.2",
     "rollup": "^2.26.9"
   },
   "author": "Season-Z",
