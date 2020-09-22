@@ -47,6 +47,8 @@ yarn link
 
 cd demo
 
+yarn
+
 yarn link "season-gulp"
 
 ....使用命令

@@ -6,11 +6,13 @@
   "scripts": {
     "clean": "season-gulp clean",
     "build": "season-gulp build",
-    "dev": "season-gulp develop"
+    "start": "season-gulp start"
   },
   "dependencies": {
     "bootstrap": "^4.3.1",
-    "gulp-cli": "^2.3.0"
+    "gulp-cli": "^2.3.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
   },
   "devDependencies": {}
 }
