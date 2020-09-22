@@ -4,6 +4,8 @@
 
 对 gulp 的工作流进行封装。整合了 3 个命令：打包、开发环境运行和清空打包后的文件夹。
 
+目前还未对 react 、vue 等进行打包配置。
+
 使用时，目标项目不需要安装 gulp 相关的库，直接使用本脚手架来运行就好具体如下：
 
 - `season-gulp build`：该命令为打包
@@ -51,5 +53,5 @@ yarn
 
 yarn link "season-gulp"
 
-....使用命令
+yarn start
 ```
